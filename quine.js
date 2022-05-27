@@ -1,0 +1,1 @@
+let program = 'let program = \'@\'; program = program.replace(\'@\', program.replace(/\'/g, String.fromCharCode(92,39))); console.log(program)'; program = program.replace('@', program.replace(/'/g, String.fromCharCode(92,39))); console.log(program) 
